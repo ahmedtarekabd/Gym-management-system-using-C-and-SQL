@@ -579,11 +579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\College\\Junior\\Semester 1\\Database\\Projects\\Project\\Code\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "E:\\College\\2- Junior\\Semester 1\\Database\\Projects\\Project\\Ali_DB_FinalPhase_Credit_Team15\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "E:\\College\\Junior\\Semester 1\\Database\\Projects\\Project\\Code\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "E:\\College\\2- Junior\\Semester 1\\Database\\Projects\\Project\\Ali_DB_FinalPhase_Credit_Team15\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "E:\\College\\Junior\\Semester 1\\Database\\Projects\\Project\\Code\\Data project\\WinFormsApp1\\obj\\",
+      "outputPath": "E:\\College\\2- Junior\\Semester 1\\Database\\Projects\\Project\\Ali_DB_FinalPhase_Credit_Team15\\Data project\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -644,7 +644,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },

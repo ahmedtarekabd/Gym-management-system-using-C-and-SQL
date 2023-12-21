@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A5rcl16YOdpULGRbdEIAdivLvBh3ImM2Cwt/gXRAr8V67tIgECF2AmQ2hUGFya1tM8+ynbFcKyNnRqniF7DaFw==",
+  "dgSpecHash": "Qb4X8q2xWwh+j+gPBmEGFl2baBJyezqPqM6+yV9pY6euRuLiyTDyZ037YMRFqjp1M5hbFvxFS0Hw0EApmG6NmQ==",
   "success": true,
-  "projectFilePath": "E:\\College\\Junior\\Semester 1\\Database\\Projects\\Project\\Code\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "E:\\College\\2- Junior\\Semester 1\\Database\\Projects\\Project\\Ali_DB_FinalPhase_Credit_Team15\\Data project\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmed\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\krypton.toolkit\\70.22.11.312\\krypton.toolkit.70.22.11.312.nupkg.sha512",
