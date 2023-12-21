@@ -29,442 +29,441 @@ namespace Receptionist
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReceptionistMain));
-            this.trainees_button = new System.Windows.Forms.Button();
-            this.navigationPanel = new System.Windows.Forms.Panel();
-            this.settingsButton = new System.Windows.Forms.Button();
-            this.financeButton = new System.Windows.Forms.Button();
-            this.trainersPanel = new System.Windows.Forms.Panel();
-            this.assignTrainersButton = new System.Windows.Forms.Button();
-            this.loginButton = new System.Windows.Forms.Button();
-            this.trainersButton = new System.Windows.Forms.Button();
-            this.respondPanel = new System.Windows.Forms.Panel();
-            this.requestButton = new System.Windows.Forms.Button();
-            this.traineesPanel = new System.Windows.Forms.Panel();
-            this.lockersButton = new System.Windows.Forms.Button();
-            this.programsButton = new System.Windows.Forms.Button();
-            this.invitationsButton = new System.Windows.Forms.Button();
-            this.membershipsButton = new System.Windows.Forms.Button();
-            this.userInfoPanel = new System.Windows.Forms.Panel();
-            this.welcomeLabel = new System.Windows.Forms.Label();
-            this.usernameLabel = new System.Windows.Forms.Label();
-            this.formName = new System.Windows.Forms.Label();
-            this.managePanelAniamtion = new System.Windows.Forms.Timer(this.components);
-            this.viewPanelAniamtion = new System.Windows.Forms.Timer(this.components);
-            this.loadedFormPanel = new System.Windows.Forms.Panel();
-            this.navigationPanel.SuspendLayout();
-            this.trainersPanel.SuspendLayout();
-            this.respondPanel.SuspendLayout();
-            this.traineesPanel.SuspendLayout();
-            this.userInfoPanel.SuspendLayout();
-            this.SuspendLayout();
+            trainees_button = new Button();
+            navigationPanel = new Panel();
+            settingsButton = new Button();
+            financeButton = new Button();
+            trainersPanel = new Panel();
+            assignTrainersButton = new Button();
+            loginButton = new Button();
+            trainersButton = new Button();
+            respondPanel = new Panel();
+            requestButton = new Button();
+            traineesPanel = new Panel();
+            lockersButton = new Button();
+            programsButton = new Button();
+            invitationsButton = new Button();
+            membershipsButton = new Button();
+            userInfoPanel = new Panel();
+            welcomeLabel = new Label();
+            usernameLabel = new Label();
+            formName = new Label();
+            managePanelAniamtion = new System.Windows.Forms.Timer(components);
+            viewPanelAniamtion = new System.Windows.Forms.Timer(components);
+            loadedFormPanel = new Panel();
+            navigationPanel.SuspendLayout();
+            trainersPanel.SuspendLayout();
+            respondPanel.SuspendLayout();
+            traineesPanel.SuspendLayout();
+            userInfoPanel.SuspendLayout();
+            SuspendLayout();
             // 
             // trainees_button
             // 
-            this.trainees_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.trainees_button.Dock = System.Windows.Forms.DockStyle.Top;
-            this.trainees_button.FlatAppearance.BorderSize = 0;
-            this.trainees_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.trainees_button.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.trainees_button.ForeColor = System.Drawing.Color.White;
-            this.trainees_button.Image = ((System.Drawing.Image)(resources.GetObject("trainees_button.Image")));
-            this.trainees_button.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.trainees_button.Location = new System.Drawing.Point(0, 0);
-            this.trainees_button.Margin = new System.Windows.Forms.Padding(0);
-            this.trainees_button.MinimumSize = new System.Drawing.Size(250, 45);
-            this.trainees_button.Name = "trainees_button";
-            this.trainees_button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.trainees_button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trainees_button.Size = new System.Drawing.Size(250, 45);
-            this.trainees_button.TabIndex = 1;
-            this.trainees_button.Text = "Trainees";
-            this.trainees_button.UseVisualStyleBackColor = false;
-            this.trainees_button.Click += new System.EventHandler(this.trainees_button_Click);
+            trainees_button.BackColor = Color.FromArgb(154, 81, 49);
+            trainees_button.Dock = DockStyle.Top;
+            trainees_button.FlatAppearance.BorderSize = 0;
+            trainees_button.FlatStyle = FlatStyle.Flat;
+            trainees_button.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            trainees_button.ForeColor = Color.White;
+            trainees_button.Image = (Image)resources.GetObject("trainees_button.Image");
+            trainees_button.ImageAlign = ContentAlignment.MiddleLeft;
+            trainees_button.Location = new Point(0, 0);
+            trainees_button.Margin = new Padding(0);
+            trainees_button.MinimumSize = new Size(250, 45);
+            trainees_button.Name = "trainees_button";
+            trainees_button.Padding = new Padding(10, 0, 10, 0);
+            trainees_button.RightToLeft = RightToLeft.No;
+            trainees_button.Size = new Size(250, 45);
+            trainees_button.TabIndex = 1;
+            trainees_button.Text = "Trainees";
+            trainees_button.UseVisualStyleBackColor = false;
+            trainees_button.Click += trainees_button_Click;
             // 
             // navigationPanel
             // 
-            this.navigationPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.navigationPanel.Controls.Add(this.settingsButton);
-            this.navigationPanel.Controls.Add(this.financeButton);
-            this.navigationPanel.Controls.Add(this.trainersPanel);
-            this.navigationPanel.Controls.Add(this.respondPanel);
-            this.navigationPanel.Controls.Add(this.traineesPanel);
-            this.navigationPanel.Controls.Add(this.userInfoPanel);
-            this.navigationPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.navigationPanel.Location = new System.Drawing.Point(0, 0);
-            this.navigationPanel.Name = "navigationPanel";
-            this.navigationPanel.Size = new System.Drawing.Size(250, 703);
-            this.navigationPanel.TabIndex = 6;
+            navigationPanel.BackColor = Color.FromArgb(154, 81, 49);
+            navigationPanel.Controls.Add(settingsButton);
+            navigationPanel.Controls.Add(financeButton);
+            navigationPanel.Controls.Add(trainersPanel);
+            navigationPanel.Controls.Add(respondPanel);
+            navigationPanel.Controls.Add(traineesPanel);
+            navigationPanel.Controls.Add(userInfoPanel);
+            navigationPanel.Dock = DockStyle.Left;
+            navigationPanel.Location = new Point(0, 0);
+            navigationPanel.Name = "navigationPanel";
+            navigationPanel.Size = new Size(250, 703);
+            navigationPanel.TabIndex = 6;
             // 
             // settingsButton
             // 
-            this.settingsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.settingsButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.settingsButton.FlatAppearance.BorderSize = 0;
-            this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingsButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.settingsButton.ForeColor = System.Drawing.Color.White;
-            this.settingsButton.Image = ((System.Drawing.Image)(resources.GetObject("settingsButton.Image")));
-            this.settingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingsButton.Location = new System.Drawing.Point(0, 658);
-            this.settingsButton.Margin = new System.Windows.Forms.Padding(0);
-            this.settingsButton.MinimumSize = new System.Drawing.Size(250, 45);
-            this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
-            this.settingsButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.settingsButton.Size = new System.Drawing.Size(250, 45);
-            this.settingsButton.TabIndex = 8;
-            this.settingsButton.Text = "Settings";
-            this.settingsButton.UseVisualStyleBackColor = false;
-            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
+            settingsButton.BackColor = Color.FromArgb(154, 81, 49);
+            settingsButton.Dock = DockStyle.Bottom;
+            settingsButton.FlatAppearance.BorderSize = 0;
+            settingsButton.FlatStyle = FlatStyle.Flat;
+            settingsButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            settingsButton.ForeColor = Color.White;
+            settingsButton.Image = (Image)resources.GetObject("settingsButton.Image");
+            settingsButton.ImageAlign = ContentAlignment.MiddleLeft;
+            settingsButton.Location = new Point(0, 658);
+            settingsButton.Margin = new Padding(0);
+            settingsButton.MinimumSize = new Size(250, 45);
+            settingsButton.Name = "settingsButton";
+            settingsButton.Padding = new Padding(10, 2, 10, 0);
+            settingsButton.RightToLeft = RightToLeft.No;
+            settingsButton.Size = new Size(250, 45);
+            settingsButton.TabIndex = 8;
+            settingsButton.Text = "Settings";
+            settingsButton.UseVisualStyleBackColor = false;
+            settingsButton.Click += settingsButton_Click;
             // 
             // financeButton
             // 
-            this.financeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.financeButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.financeButton.FlatAppearance.BorderSize = 0;
-            this.financeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.financeButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.financeButton.ForeColor = System.Drawing.Color.White;
-            this.financeButton.Image = ((System.Drawing.Image)(resources.GetObject("financeButton.Image")));
-            this.financeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.financeButton.Location = new System.Drawing.Point(0, 285);
-            this.financeButton.Margin = new System.Windows.Forms.Padding(0);
-            this.financeButton.MinimumSize = new System.Drawing.Size(250, 45);
-            this.financeButton.Name = "financeButton";
-            this.financeButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
-            this.financeButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.financeButton.Size = new System.Drawing.Size(250, 45);
-            this.financeButton.TabIndex = 7;
-            this.financeButton.Text = "Finance";
-            this.financeButton.UseVisualStyleBackColor = false;
-            this.financeButton.Click += new System.EventHandler(this.financeButton_Click);
+            financeButton.BackColor = Color.FromArgb(154, 81, 49);
+            financeButton.Dock = DockStyle.Top;
+            financeButton.FlatAppearance.BorderSize = 0;
+            financeButton.FlatStyle = FlatStyle.Flat;
+            financeButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            financeButton.ForeColor = Color.White;
+            financeButton.Image = (Image)resources.GetObject("financeButton.Image");
+            financeButton.ImageAlign = ContentAlignment.MiddleLeft;
+            financeButton.Location = new Point(0, 285);
+            financeButton.Margin = new Padding(0);
+            financeButton.MinimumSize = new Size(250, 45);
+            financeButton.Name = "financeButton";
+            financeButton.Padding = new Padding(10, 2, 10, 0);
+            financeButton.RightToLeft = RightToLeft.No;
+            financeButton.Size = new Size(250, 45);
+            financeButton.TabIndex = 7;
+            financeButton.Text = "Finance";
+            financeButton.UseVisualStyleBackColor = false;
+            financeButton.Click += financeButton_Click;
             // 
             // trainersPanel
             // 
-            this.trainersPanel.Controls.Add(this.assignTrainersButton);
-            this.trainersPanel.Controls.Add(this.loginButton);
-            this.trainersPanel.Controls.Add(this.trainersButton);
-            this.trainersPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.trainersPanel.Location = new System.Drawing.Point(0, 240);
-            this.trainersPanel.MaximumSize = new System.Drawing.Size(250, 125);
-            this.trainersPanel.MinimumSize = new System.Drawing.Size(250, 45);
-            this.trainersPanel.Name = "trainersPanel";
-            this.trainersPanel.Size = new System.Drawing.Size(250, 45);
-            this.trainersPanel.TabIndex = 4;
+            trainersPanel.Controls.Add(assignTrainersButton);
+            trainersPanel.Controls.Add(loginButton);
+            trainersPanel.Controls.Add(trainersButton);
+            trainersPanel.Dock = DockStyle.Top;
+            trainersPanel.Location = new Point(0, 240);
+            trainersPanel.MaximumSize = new Size(250, 125);
+            trainersPanel.MinimumSize = new Size(250, 45);
+            trainersPanel.Name = "trainersPanel";
+            trainersPanel.Size = new Size(250, 45);
+            trainersPanel.TabIndex = 4;
             // 
             // assignTrainersButton
             // 
-            this.assignTrainersButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.assignTrainersButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.assignTrainersButton.FlatAppearance.BorderSize = 0;
-            this.assignTrainersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.assignTrainersButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.assignTrainersButton.ForeColor = System.Drawing.Color.White;
-            this.assignTrainersButton.Image = ((System.Drawing.Image)(resources.GetObject("assignTrainersButton.Image")));
-            this.assignTrainersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.assignTrainersButton.Location = new System.Drawing.Point(0, 85);
-            this.assignTrainersButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.assignTrainersButton.Name = "assignTrainersButton";
-            this.assignTrainersButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.assignTrainersButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.assignTrainersButton.Size = new System.Drawing.Size(250, 40);
-            this.assignTrainersButton.TabIndex = 3;
-            this.assignTrainersButton.Text = "          Assign Trainers";
-            this.assignTrainersButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.assignTrainersButton.UseVisualStyleBackColor = false;
-            this.assignTrainersButton.Click += new System.EventHandler(this.assignTrainersButton_Click);
+            assignTrainersButton.BackColor = Color.FromArgb(234, 108, 54);
+            assignTrainersButton.Dock = DockStyle.Top;
+            assignTrainersButton.FlatAppearance.BorderSize = 0;
+            assignTrainersButton.FlatStyle = FlatStyle.Flat;
+            assignTrainersButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            assignTrainersButton.ForeColor = Color.White;
+            assignTrainersButton.Image = (Image)resources.GetObject("assignTrainersButton.Image");
+            assignTrainersButton.ImageAlign = ContentAlignment.MiddleLeft;
+            assignTrainersButton.Location = new Point(0, 85);
+            assignTrainersButton.Margin = new Padding(3, 4, 3, 4);
+            assignTrainersButton.Name = "assignTrainersButton";
+            assignTrainersButton.Padding = new Padding(40, 0, 10, 0);
+            assignTrainersButton.RightToLeft = RightToLeft.No;
+            assignTrainersButton.Size = new Size(250, 40);
+            assignTrainersButton.TabIndex = 3;
+            assignTrainersButton.Text = "          Assign Trainers";
+            assignTrainersButton.TextAlign = ContentAlignment.MiddleLeft;
+            assignTrainersButton.UseVisualStyleBackColor = false;
+            assignTrainersButton.Click += assignTrainersButton_Click;
             // 
             // loginButton
             // 
-            this.loginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.loginButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.loginButton.FlatAppearance.BorderSize = 0;
-            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.loginButton.ForeColor = System.Drawing.Color.White;
-            this.loginButton.Image = ((System.Drawing.Image)(resources.GetObject("loginButton.Image")));
-            this.loginButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.loginButton.Location = new System.Drawing.Point(0, 45);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(0);
-            this.loginButton.Name = "loginButton";
-            this.loginButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.loginButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.loginButton.Size = new System.Drawing.Size(250, 40);
-            this.loginButton.TabIndex = 1;
-            this.loginButton.Text = "          Login";
-            this.loginButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.loginButton.UseVisualStyleBackColor = false;
-            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
+            loginButton.BackColor = Color.FromArgb(234, 108, 54);
+            loginButton.Dock = DockStyle.Top;
+            loginButton.FlatAppearance.BorderSize = 0;
+            loginButton.FlatStyle = FlatStyle.Flat;
+            loginButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            loginButton.ForeColor = Color.White;
+            loginButton.Image = (Image)resources.GetObject("loginButton.Image");
+            loginButton.ImageAlign = ContentAlignment.MiddleLeft;
+            loginButton.Location = new Point(0, 45);
+            loginButton.Margin = new Padding(0);
+            loginButton.Name = "loginButton";
+            loginButton.Padding = new Padding(40, 0, 10, 0);
+            loginButton.RightToLeft = RightToLeft.No;
+            loginButton.Size = new Size(250, 40);
+            loginButton.TabIndex = 1;
+            loginButton.Text = "          Login";
+            loginButton.TextAlign = ContentAlignment.MiddleLeft;
+            loginButton.UseVisualStyleBackColor = false;
+            loginButton.Click += loginButton_Click;
             // 
             // trainersButton
             // 
-            this.trainersButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.trainersButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.trainersButton.FlatAppearance.BorderSize = 0;
-            this.trainersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.trainersButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.trainersButton.ForeColor = System.Drawing.Color.White;
-            this.trainersButton.Image = ((System.Drawing.Image)(resources.GetObject("trainersButton.Image")));
-            this.trainersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.trainersButton.Location = new System.Drawing.Point(0, 0);
-            this.trainersButton.Margin = new System.Windows.Forms.Padding(0);
-            this.trainersButton.MinimumSize = new System.Drawing.Size(250, 45);
-            this.trainersButton.Name = "trainersButton";
-            this.trainersButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
-            this.trainersButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trainersButton.Size = new System.Drawing.Size(250, 45);
-            this.trainersButton.TabIndex = 0;
-            this.trainersButton.Text = "Trainers";
-            this.trainersButton.UseVisualStyleBackColor = false;
-            this.trainersButton.Click += new System.EventHandler(this.trainers_button_Click);
+            trainersButton.BackColor = Color.FromArgb(154, 81, 49);
+            trainersButton.Dock = DockStyle.Top;
+            trainersButton.FlatAppearance.BorderSize = 0;
+            trainersButton.FlatStyle = FlatStyle.Flat;
+            trainersButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            trainersButton.ForeColor = Color.White;
+            trainersButton.Image = (Image)resources.GetObject("trainersButton.Image");
+            trainersButton.ImageAlign = ContentAlignment.MiddleLeft;
+            trainersButton.Location = new Point(0, 0);
+            trainersButton.Margin = new Padding(0);
+            trainersButton.MinimumSize = new Size(250, 45);
+            trainersButton.Name = "trainersButton";
+            trainersButton.Padding = new Padding(10, 2, 10, 0);
+            trainersButton.RightToLeft = RightToLeft.No;
+            trainersButton.Size = new Size(250, 45);
+            trainersButton.TabIndex = 0;
+            trainersButton.Text = "Trainers";
+            trainersButton.UseVisualStyleBackColor = false;
+            trainersButton.Click += trainers_button_Click;
             // 
             // respondPanel
             // 
-            this.respondPanel.Controls.Add(this.requestButton);
-            this.respondPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.respondPanel.Location = new System.Drawing.Point(0, 195);
-            this.respondPanel.MaximumSize = new System.Drawing.Size(250, 45);
-            this.respondPanel.MinimumSize = new System.Drawing.Size(250, 45);
-            this.respondPanel.Name = "respondPanel";
-            this.respondPanel.Size = new System.Drawing.Size(250, 45);
-            this.respondPanel.TabIndex = 3;
+            respondPanel.Controls.Add(requestButton);
+            respondPanel.Dock = DockStyle.Top;
+            respondPanel.Location = new Point(0, 195);
+            respondPanel.MaximumSize = new Size(250, 45);
+            respondPanel.MinimumSize = new Size(250, 45);
+            respondPanel.Name = "respondPanel";
+            respondPanel.Size = new Size(250, 45);
+            respondPanel.TabIndex = 3;
             // 
             // requestButton
             // 
-            this.requestButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.requestButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.requestButton.FlatAppearance.BorderSize = 0;
-            this.requestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.requestButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.requestButton.ForeColor = System.Drawing.Color.White;
-            this.requestButton.Image = ((System.Drawing.Image)(resources.GetObject("requestButton.Image")));
-            this.requestButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.requestButton.Location = new System.Drawing.Point(0, 0);
-            this.requestButton.Margin = new System.Windows.Forms.Padding(0);
-            this.requestButton.MinimumSize = new System.Drawing.Size(250, 45);
-            this.requestButton.Name = "requestButton";
-            this.requestButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
-            this.requestButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.requestButton.Size = new System.Drawing.Size(250, 45);
-            this.requestButton.TabIndex = 0;
-            this.requestButton.Text = "Request";
-            this.requestButton.UseVisualStyleBackColor = false;
-            this.requestButton.Click += new System.EventHandler(this.request_button_Click);
+            requestButton.BackColor = Color.FromArgb(154, 81, 49);
+            requestButton.Dock = DockStyle.Top;
+            requestButton.FlatAppearance.BorderSize = 0;
+            requestButton.FlatStyle = FlatStyle.Flat;
+            requestButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            requestButton.ForeColor = Color.White;
+            requestButton.Image = (Image)resources.GetObject("requestButton.Image");
+            requestButton.ImageAlign = ContentAlignment.MiddleLeft;
+            requestButton.Location = new Point(0, 0);
+            requestButton.Margin = new Padding(0);
+            requestButton.MinimumSize = new Size(250, 45);
+            requestButton.Name = "requestButton";
+            requestButton.Padding = new Padding(10, 2, 10, 0);
+            requestButton.RightToLeft = RightToLeft.No;
+            requestButton.Size = new Size(250, 45);
+            requestButton.TabIndex = 0;
+            requestButton.Text = "Request";
+            requestButton.UseVisualStyleBackColor = false;
+            requestButton.Click += request_button_Click;
             // 
             // traineesPanel
             // 
-            this.traineesPanel.Controls.Add(this.lockersButton);
-            this.traineesPanel.Controls.Add(this.programsButton);
-            this.traineesPanel.Controls.Add(this.invitationsButton);
-            this.traineesPanel.Controls.Add(this.membershipsButton);
-            this.traineesPanel.Controls.Add(this.trainees_button);
-            this.traineesPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.traineesPanel.Location = new System.Drawing.Point(0, 150);
-            this.traineesPanel.MaximumSize = new System.Drawing.Size(250, 205);
-            this.traineesPanel.MinimumSize = new System.Drawing.Size(250, 45);
-            this.traineesPanel.Name = "traineesPanel";
-            this.traineesPanel.Size = new System.Drawing.Size(250, 45);
-            this.traineesPanel.TabIndex = 2;
+            traineesPanel.Controls.Add(lockersButton);
+            traineesPanel.Controls.Add(programsButton);
+            traineesPanel.Controls.Add(invitationsButton);
+            traineesPanel.Controls.Add(membershipsButton);
+            traineesPanel.Controls.Add(trainees_button);
+            traineesPanel.Dock = DockStyle.Top;
+            traineesPanel.Location = new Point(0, 150);
+            traineesPanel.MaximumSize = new Size(250, 205);
+            traineesPanel.MinimumSize = new Size(250, 45);
+            traineesPanel.Name = "traineesPanel";
+            traineesPanel.Size = new Size(250, 45);
+            traineesPanel.TabIndex = 2;
             // 
             // lockersButton
             // 
-            this.lockersButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.lockersButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lockersButton.FlatAppearance.BorderSize = 0;
-            this.lockersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lockersButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lockersButton.ForeColor = System.Drawing.Color.White;
-            this.lockersButton.Image = ((System.Drawing.Image)(resources.GetObject("lockersButton.Image")));
-            this.lockersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lockersButton.Location = new System.Drawing.Point(0, 165);
-            this.lockersButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.lockersButton.Name = "lockersButton";
-            this.lockersButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.lockersButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lockersButton.Size = new System.Drawing.Size(250, 40);
-            this.lockersButton.TabIndex = 5;
-            this.lockersButton.Text = "          Lockers";
-            this.lockersButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lockersButton.UseVisualStyleBackColor = false;
-            this.lockersButton.Click += new System.EventHandler(this.lockersButton_Click);
+            lockersButton.BackColor = Color.FromArgb(234, 108, 54);
+            lockersButton.Dock = DockStyle.Top;
+            lockersButton.FlatAppearance.BorderSize = 0;
+            lockersButton.FlatStyle = FlatStyle.Flat;
+            lockersButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            lockersButton.ForeColor = Color.White;
+            lockersButton.Image = (Image)resources.GetObject("lockersButton.Image");
+            lockersButton.ImageAlign = ContentAlignment.MiddleLeft;
+            lockersButton.Location = new Point(0, 165);
+            lockersButton.Margin = new Padding(3, 4, 3, 4);
+            lockersButton.Name = "lockersButton";
+            lockersButton.Padding = new Padding(40, 0, 10, 0);
+            lockersButton.RightToLeft = RightToLeft.No;
+            lockersButton.Size = new Size(250, 40);
+            lockersButton.TabIndex = 5;
+            lockersButton.Text = "          Lockers";
+            lockersButton.TextAlign = ContentAlignment.MiddleLeft;
+            lockersButton.UseVisualStyleBackColor = false;
+            lockersButton.Click += lockersButton_Click;
             // 
             // programsButton
             // 
-            this.programsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.programsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.programsButton.FlatAppearance.BorderSize = 0;
-            this.programsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.programsButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.programsButton.ForeColor = System.Drawing.Color.White;
-            this.programsButton.Image = ((System.Drawing.Image)(resources.GetObject("programsButton.Image")));
-            this.programsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.programsButton.Location = new System.Drawing.Point(0, 125);
-            this.programsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.programsButton.Name = "programsButton";
-            this.programsButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.programsButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.programsButton.Size = new System.Drawing.Size(250, 40);
-            this.programsButton.TabIndex = 4;
-            this.programsButton.Text = "          Programs";
-            this.programsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.programsButton.UseVisualStyleBackColor = false;
-            this.programsButton.Click += new System.EventHandler(this.programsButton_Click);
+            programsButton.BackColor = Color.FromArgb(234, 108, 54);
+            programsButton.Dock = DockStyle.Top;
+            programsButton.FlatAppearance.BorderSize = 0;
+            programsButton.FlatStyle = FlatStyle.Flat;
+            programsButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            programsButton.ForeColor = Color.White;
+            programsButton.Image = (Image)resources.GetObject("programsButton.Image");
+            programsButton.ImageAlign = ContentAlignment.MiddleLeft;
+            programsButton.Location = new Point(0, 125);
+            programsButton.Margin = new Padding(3, 4, 3, 4);
+            programsButton.Name = "programsButton";
+            programsButton.Padding = new Padding(40, 0, 10, 0);
+            programsButton.RightToLeft = RightToLeft.No;
+            programsButton.Size = new Size(250, 40);
+            programsButton.TabIndex = 4;
+            programsButton.Text = "          Programs";
+            programsButton.TextAlign = ContentAlignment.MiddleLeft;
+            programsButton.UseVisualStyleBackColor = false;
+            programsButton.Click += programsButton_Click;
             // 
             // invitationsButton
             // 
-            this.invitationsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.invitationsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.invitationsButton.FlatAppearance.BorderSize = 0;
-            this.invitationsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.invitationsButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.invitationsButton.ForeColor = System.Drawing.Color.White;
-            this.invitationsButton.Image = ((System.Drawing.Image)(resources.GetObject("invitationsButton.Image")));
-            this.invitationsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.invitationsButton.Location = new System.Drawing.Point(0, 85);
-            this.invitationsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.invitationsButton.Name = "invitationsButton";
-            this.invitationsButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.invitationsButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.invitationsButton.Size = new System.Drawing.Size(250, 40);
-            this.invitationsButton.TabIndex = 3;
-            this.invitationsButton.Text = "          Invitations";
-            this.invitationsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.invitationsButton.UseVisualStyleBackColor = false;
-            this.invitationsButton.Click += new System.EventHandler(this.invitationsButton_Click);
+            invitationsButton.BackColor = Color.FromArgb(234, 108, 54);
+            invitationsButton.Dock = DockStyle.Top;
+            invitationsButton.FlatAppearance.BorderSize = 0;
+            invitationsButton.FlatStyle = FlatStyle.Flat;
+            invitationsButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            invitationsButton.ForeColor = Color.White;
+            invitationsButton.Image = (Image)resources.GetObject("invitationsButton.Image");
+            invitationsButton.ImageAlign = ContentAlignment.MiddleLeft;
+            invitationsButton.Location = new Point(0, 85);
+            invitationsButton.Margin = new Padding(3, 4, 3, 4);
+            invitationsButton.Name = "invitationsButton";
+            invitationsButton.Padding = new Padding(40, 0, 10, 0);
+            invitationsButton.RightToLeft = RightToLeft.No;
+            invitationsButton.Size = new Size(250, 40);
+            invitationsButton.TabIndex = 3;
+            invitationsButton.Text = "          Invitations";
+            invitationsButton.TextAlign = ContentAlignment.MiddleLeft;
+            invitationsButton.UseVisualStyleBackColor = false;
+            invitationsButton.Click += invitationsButton_Click;
             // 
             // membershipsButton
             // 
-            this.membershipsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(108)))), ((int)(((byte)(54)))));
-            this.membershipsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.membershipsButton.FlatAppearance.BorderSize = 0;
-            this.membershipsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.membershipsButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.membershipsButton.ForeColor = System.Drawing.Color.White;
-            this.membershipsButton.Image = ((System.Drawing.Image)(resources.GetObject("membershipsButton.Image")));
-            this.membershipsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.membershipsButton.Location = new System.Drawing.Point(0, 45);
-            this.membershipsButton.Margin = new System.Windows.Forms.Padding(0);
-            this.membershipsButton.Name = "membershipsButton";
-            this.membershipsButton.Padding = new System.Windows.Forms.Padding(40, 0, 10, 0);
-            this.membershipsButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.membershipsButton.Size = new System.Drawing.Size(250, 40);
-            this.membershipsButton.TabIndex = 2;
-            this.membershipsButton.Text = "          Memberships";
-            this.membershipsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.membershipsButton.UseVisualStyleBackColor = false;
-            this.membershipsButton.Click += new System.EventHandler(this.membershipsButton_Click);
+            membershipsButton.BackColor = Color.FromArgb(234, 108, 54);
+            membershipsButton.Dock = DockStyle.Top;
+            membershipsButton.FlatAppearance.BorderSize = 0;
+            membershipsButton.FlatStyle = FlatStyle.Flat;
+            membershipsButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            membershipsButton.ForeColor = Color.White;
+            membershipsButton.Image = (Image)resources.GetObject("membershipsButton.Image");
+            membershipsButton.ImageAlign = ContentAlignment.MiddleLeft;
+            membershipsButton.Location = new Point(0, 45);
+            membershipsButton.Margin = new Padding(0);
+            membershipsButton.Name = "membershipsButton";
+            membershipsButton.Padding = new Padding(40, 0, 10, 0);
+            membershipsButton.RightToLeft = RightToLeft.No;
+            membershipsButton.Size = new Size(250, 40);
+            membershipsButton.TabIndex = 2;
+            membershipsButton.Text = "          Memberships";
+            membershipsButton.TextAlign = ContentAlignment.MiddleLeft;
+            membershipsButton.UseVisualStyleBackColor = false;
+            membershipsButton.Click += membershipsButton_Click;
             // 
             // userInfoPanel
             // 
-            this.userInfoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(81)))), ((int)(((byte)(49)))));
-            this.userInfoPanel.Controls.Add(this.welcomeLabel);
-            this.userInfoPanel.Controls.Add(this.usernameLabel);
-            this.userInfoPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.userInfoPanel.Location = new System.Drawing.Point(0, 0);
-            this.userInfoPanel.Name = "userInfoPanel";
-            this.userInfoPanel.Size = new System.Drawing.Size(250, 150);
-            this.userInfoPanel.TabIndex = 0;
+            userInfoPanel.BackColor = Color.FromArgb(154, 81, 49);
+            userInfoPanel.Controls.Add(welcomeLabel);
+            userInfoPanel.Controls.Add(usernameLabel);
+            userInfoPanel.Dock = DockStyle.Top;
+            userInfoPanel.Location = new Point(0, 0);
+            userInfoPanel.Name = "userInfoPanel";
+            userInfoPanel.Size = new Size(250, 150);
+            userInfoPanel.TabIndex = 0;
             // 
             // welcomeLabel
             // 
-            this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.welcomeLabel.ForeColor = System.Drawing.Color.White;
-            this.welcomeLabel.Location = new System.Drawing.Point(12, 74);
-            this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(84, 23);
-            this.welcomeLabel.TabIndex = 0;
-            this.welcomeLabel.Text = "Welcome";
+            welcomeLabel.AutoSize = true;
+            welcomeLabel.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            welcomeLabel.ForeColor = Color.White;
+            welcomeLabel.Location = new Point(12, 74);
+            welcomeLabel.Name = "welcomeLabel";
+            welcomeLabel.Size = new Size(84, 23);
+            welcomeLabel.TabIndex = 0;
+            welcomeLabel.Text = "Welcome";
             // 
             // usernameLabel
             // 
-            this.usernameLabel.AutoSize = true;
-            this.usernameLabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.usernameLabel.ForeColor = System.Drawing.Color.White;
-            this.usernameLabel.Location = new System.Drawing.Point(12, 97);
-            this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(158, 41);
-            this.usernameLabel.TabIndex = 0;
-            this.usernameLabel.Text = "Username";
+            usernameLabel.AutoSize = true;
+            usernameLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            usernameLabel.ForeColor = Color.White;
+            usernameLabel.Location = new Point(12, 97);
+            usernameLabel.Name = "usernameLabel";
+            usernameLabel.Size = new Size(158, 41);
+            usernameLabel.TabIndex = 0;
+            usernameLabel.Text = "Username";
             // 
             // formName
             // 
-            this.formName.AutoSize = true;
-            this.formName.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.formName.Location = new System.Drawing.Point(270, 19);
-            this.formName.Name = "formName";
-            this.formName.Size = new System.Drawing.Size(178, 54);
-            this.formName.TabIndex = 0;
-            this.formName.Text = "Trainees";
+            formName.AutoSize = true;
+            formName.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            formName.Location = new Point(270, 19);
+            formName.Name = "formName";
+            formName.Size = new Size(178, 54);
+            formName.TabIndex = 0;
+            formName.Text = "Trainees";
             // 
             // managePanelAniamtion
             // 
-            this.managePanelAniamtion.Interval = 10;
-            this.managePanelAniamtion.Tick += new System.EventHandler(this.traineesPanelAniamtion_Tick);
+            managePanelAniamtion.Interval = 10;
+            managePanelAniamtion.Tick += traineesPanelAniamtion_Tick;
             // 
             // viewPanelAniamtion
             // 
-            this.viewPanelAniamtion.Interval = 10;
-            this.viewPanelAniamtion.Tick += new System.EventHandler(this.trainersPanelAniamtion_Tick);
+            viewPanelAniamtion.Interval = 10;
+            viewPanelAniamtion.Tick += trainersPanelAniamtion_Tick;
             // 
             // loadedFormPanel
             // 
-            this.loadedFormPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.loadedFormPanel.Location = new System.Drawing.Point(250, 94);
-            this.loadedFormPanel.Name = "loadedFormPanel";
-            this.loadedFormPanel.Size = new System.Drawing.Size(914, 609);
-            this.loadedFormPanel.TabIndex = 7;
+            loadedFormPanel.Dock = DockStyle.Bottom;
+            loadedFormPanel.Location = new Point(250, 94);
+            loadedFormPanel.Name = "loadedFormPanel";
+            loadedFormPanel.Size = new Size(914, 609);
+            loadedFormPanel.TabIndex = 7;
             // 
             // ReceptionistMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(1164, 703);
-            this.Controls.Add(this.loadedFormPanel);
-            this.Controls.Add(this.formName);
-            this.Controls.Add(this.navigationPanel);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "ReceptionistMain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Manager Main";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ReceptionistMain_FormClosed);
-            this.navigationPanel.ResumeLayout(false);
-            this.trainersPanel.ResumeLayout(false);
-            this.respondPanel.ResumeLayout(false);
-            this.traineesPanel.ResumeLayout(false);
-            this.userInfoPanel.ResumeLayout(false);
-            this.userInfoPanel.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(240, 240, 240);
+            ClientSize = new Size(1164, 703);
+            Controls.Add(loadedFormPanel);
+            Controls.Add(formName);
+            Controls.Add(navigationPanel);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "ReceptionistMain";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Receptionist Main";
+            FormClosed += ReceptionistMain_FormClosed;
+            navigationPanel.ResumeLayout(false);
+            trainersPanel.ResumeLayout(false);
+            respondPanel.ResumeLayout(false);
+            traineesPanel.ResumeLayout(false);
+            userInfoPanel.ResumeLayout(false);
+            userInfoPanel.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button trainees_button;
-        private System.Windows.Forms.Panel navigationPanel;
-        private System.Windows.Forms.Panel traineesPanel;
-        private System.Windows.Forms.Button membershipsButton;
-        private System.Windows.Forms.Button lockersButton;
-        private System.Windows.Forms.Button programsButton;
-        private System.Windows.Forms.Button invitationsButton;
-        private System.Windows.Forms.Panel respondPanel;
-        private System.Windows.Forms.Button requestButton;
-        private System.Windows.Forms.Panel userInfoPanel;
-        private System.Windows.Forms.Label formName;
-        private System.Windows.Forms.Label usernameLabel;
-        private System.Windows.Forms.Label welcomeLabel;
-        private System.Windows.Forms.Panel trainersPanel;
-        private System.Windows.Forms.Button assignTrainersButton;
-        private System.Windows.Forms.Button loginButton;
-        private System.Windows.Forms.Button trainersButton;
+        private Panel navigationPanel;
+        private Panel traineesPanel;
+        private Button membershipsButton;
+        private Button lockersButton;
+        private Button programsButton;
+        private Button invitationsButton;
+        private Panel respondPanel;
+        private Button requestButton;
+        private Panel userInfoPanel;
+        private Label formName;
+        private Label usernameLabel;
+        private Label welcomeLabel;
+        private Panel trainersPanel;
+        private Button assignTrainersButton;
+        private Button loginButton;
+        private Button trainersButton;
         private System.Windows.Forms.Timer managePanelAniamtion;
         private System.Windows.Forms.Timer viewPanelAniamtion;
-        private System.Windows.Forms.Button financeButton;
-        private System.Windows.Forms.Panel loadedFormPanel;
+        private Button financeButton;
+        private Panel loadedFormPanel;
         private Button settingsButton;
     }
 }

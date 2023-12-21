@@ -44,3 +44,20 @@ Managers can register transactions such as:
 3. Descriptions
 
 ![Log Transactions](Log_Transactions.png)
+
+#### Receptionists
+
+Have common functionalities but different data access.
+
+Functionalities such as
+
+1. Adding, Delete, Remove, Searching Trainees
+2. Manage Trainees
+   1. Memberships
+   2. Programs
+   3. Invitiations
+   4. Lockers
+3. Check Trainers' (PT) attendance
+4. Assign Trainees with their Trainer
+
+![Receptionists Main](Receptionists.png)
